@@ -15,12 +15,12 @@ const NavBar = () => {
 
     return (
         <div className='flex justify-between items-center px-2'>
-            <h3 className="text-2xl font-bold text-white">Nextjs app</h3>
+            <h3 className="text-2xl font-bold text-white">Next.js App</h3>
             <ul className="flex gap-5 text-white px-4 py-1">
                 {routes}
             </ul>
             <div>
-                
+
             </div>
         </div>
     );

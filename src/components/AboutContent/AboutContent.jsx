@@ -1,9 +1,12 @@
+import Link from 'next/link';
 import React from 'react';
 
 const AboutContent = () => {
     return (
         <div>
-            about 
+             <p>About Page</p> 
+
+            
         </div>
     );
 };

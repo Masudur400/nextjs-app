@@ -18,8 +18,8 @@ const Details = ({id}) => {
 
     return (
         <div>
-            <p>{data.title}</p>
-            <p>{data.body}</p>
+            <p><span className="font-bold mb-2">Title : </span>{data.title}</p>
+            <p><span className="font-bold">Body : </span>{data.body}</p>
         </div>
     );
 };
